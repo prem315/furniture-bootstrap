@@ -1,0 +1,489 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+header{
+	nav.navbar{
+		margin-bottom: 0px;
+		//background-color: transparent;
+		border-width: 0 0 0 0;
+
+		&.affix{
+			background-color: #5f5f5f;
+		}
+
+		&.affix-top{
+			background-color: transparent;
+		}
+
+		&.navbar-default .navbar-nav>li>a{
+			&, &:hover, &:visited, &:link{
+				color: #ffffff;
+				transition: border-color 0.3s ease-in;
+				font-size: 1.2em;
+			}
+			&:hover{
+				border-bottom: 3px solid #ffffff;
+			}
+		}
+
+		.navbar-brand{
+			font-size: 2em;
+			color: #ffffff;
+
+			&:hover{
+				color: #ffffff;
+			}
+		}
+
+		.fa-stack{
+			margin-top: 6px;
+
+			.yellow-background{
+				color: yellow;
+			}
+		}
+	}
+
+
+}
+
+.input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
+
+
+#land{
+	width: 100%;
+	height: 87vh;
+	background-image: url('furniture.jpg');
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	text-align: center;
+	min-height: 568px;
+	//min-height: 87vh;
+	
+	.vcenter{
+		border: 1px solid transparent;
+		position: relative;
+		top: 30%;
+		transform: translateY(-50%);
+
+		.main-heading{
+			letter-spacing: 1.5px;
+			margin: 20px 0;
+		}
+
+		.meta-info{
+			margin: 10px 0;
+			letter-spacing: 1.5px;
+			font-size: 1.2em;
+		}
+
+		// .border{
+		// 	position: relative;
+  //   		z-index: 1001;
+		// }
+		.main-search {
+			margin: 0 auto;
+		    width: 545px;
+		    padding-top: 10px;
+		    padding-bottom: 10px;
+		    /* height: 50px; */
+		    /* text-align: center; */
+		    /* left: 50%; */
+		    background-color: rgba(95, 95, 95, 0.7);
+		}
+
+		.input-group{
+			position: relative;
+			border-collapse: separate;
+			//border: 1px solid red;
+
+			.form-control{
+				height: 50px;
+			    width: 300px;
+			    border-radius: 3px 0 0 3px;
+			    box-shadow: 0 0 0;
+			    -webkit-box-shadow: 0 0 0;
+			    -moz-box-shadow: 0 0 0;
+			    border: 0;
+			    color: #787878;
+			    font-size: 18px;
+			    padding: 0 0 0 30px;
+			}
+
+			.mydropdown{
+				height: 50px;
+				width: 120px;
+				background-color: #ffffff;
+				border-color: #ffffff;
+				color: black;
+				//margin-left: -4px;
+				border-radius: 0px;
+			}
+		}
+
+		.search-button{
+			//background: #dc3226;
+			background-color: rgb(95, 95, 95);
+		    height: 50px;
+		    width: 100px;
+		    color: #FFF;
+		    font-size: 14px;
+		    border-radius: 0 3px 3px 0;
+		    box-shadow: 0 0 0;
+		    -webkit-box-shadow: 0 0 0;
+		    -moz-box-shadow: 0 0 0;
+		    border: 0;
+		    margin-left: -3px;
+		}
+	}
+
+	.main-search {
+		.form-inline{
+			.form-group{
+				position: relative;
+				height: 50px;
+			    width: 700px;
+			    border-radius: 3px 0 0 3px;
+			    box-shadow: 0 0 0;
+			    -webkit-box-shadow: 0 0 0;
+			    -moz-box-shadow: 0 0 0;
+			    border: 0;
+			    color: #787878;
+			    font-size: 18px;
+			    padding: 0 0 0 30px;
+			}
+		}
+	}
+}
+
+#howitworks{
+	.howitworkscontainer{
+		margin-top: 40px;
+		margin-bottom: 70px;
+	}
+	.textdata{
+		text-align: center;
+		h2{
+			margin: 30px;
+			color: #5f5f5f;
+		}
+		p{
+			color: #5f5f5f;
+			margin: 0 auto;
+			width: 300px;
+			border-top: 1px solid #5f5f5f;
+			border-bottom: 1px solid #5f5f5f;
+			letter-spacing: 1.5px;
+		}
+	}
+	.search{
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+}
+
+
+
+#portfolio {
+  min-height: 35em;
+
+  hr {
+    background-color: #ff0;
+    width: 20em;
+    height: 2px;
+  }
+
+  .hr-star {
+    position: relative;
+    top: -2.3em;
+    display: inline-block;
+    color: yellow;
+    background-color: white;
+    width: 2em;
+    text-align: center;
+    margin-left: 46em;
+  }
+  
+
+  h2 {
+    text-align: center;
+    font-size: 3.1em;
+    margin-top: 2em;
+    color: #729BCC;
+  }
+
+  p {
+    text-align: center;
+    padding-top: 0em;
+    padding-bottom: 2em;
+  }
+
+  /* .btn-group .btn {
+    margin-right: 1em;
+  } */
+
+  .pad {
+    padding: 0 !important;
+  }
+
+  // .cc {
+  //   padding: 0 !important;
+  //   width: 100%;
+
+  //   .bb {
+  //     height: 100px;
+  //   min-height: 80px;
+
+  //   }
+  // }  
+
+  .img-pic {
+    position: relative;
+
+    img {
+      width: auto;
+      height: 250px;
+    }
+
+    .text-overlay {
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     visibility: hidden;
+    }
+
+    &:hover .text-overlay {
+    visibility: visible;
+    }
+  }
+
+  .btng {
+    //margin-bottom: 2em;
+  }
+
+  .furniture-background{
+  	    text-align: center;
+    background-color: #5f5f5f;
+    height: 70px;
+
+    .mybutton{
+    	height: 70px;
+    	border-radius: 0;
+    	width: 125px;
+    }
+  }
+
+}
+
+
+#whyus{
+	.textdata-whyus{
+		text-align: center;
+		h2{
+			margin-top: 50px;
+			color: #5f5f5f;
+		}
+		.pborder{
+			color: #5f5f5f;
+			margin: 0 auto;
+			margin-top: 20px;
+			width: 300px;
+			border-top: 1px solid #5f5f5f;
+			border-bottom: 1px solid #5f5f5f;
+			letter-spacing: 1.5px;
+		}
+		.pwborder{
+			margin: 0 auto;
+			margin-top: 20px;
+			width: 700px;
+			//border: 1px solid red;
+		}
+	}
+	.back-image{
+		color: red;
+		margin-top: 20px;
+		// background-image: url('furniture.jpg');
+		// background-size: cover;
+		// background-position: 50% 50%;
+		// background-repeat: no-repeat;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.stylehr:after { 
+	  content: '\002702'; 
+	  display: inline-block; 
+	  position: relative; 
+	  top: -12px; 
+	  left: 40px; 
+	  padding: 0 3px; 
+	  background: #f0f0f0; 
+	  color: #8c8b8b; 
+	  font-size: 18px; 
+	}
+	
+}
+
+
+
+#ourbenefits{
+	width: 100%;
+	height: 700px;
+	background-image: url('ourbenefits2.jpg');
+	//background-color: red;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	text-align: center;
+	//min-height: 700px;
+
+	.meta-data{
+		color: #ffffff;
+			margin: 0 auto;
+			margin-top: 20px;
+			width: 300px;
+			border-top: 1px solid #ffffff;
+			border-bottom: 1px solid #ffffff;
+			letter-spacing: 1.5px;
+			margin-bottom: 40px;
+	}
+
+	.circle{
+		width: 240px;
+		height: 240px;
+		//background-color: red;
+		border: 3px solid #ffffff;
+		//border-color: #5f5f5f;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		border-radius: 120px;
+		margin: 0 auto;
+		text-align: center;
+
+		.inside-circle{
+			line-height: 240px;
+			text-transform: uppercase;
+			font-size: 1.2em;
+		}
+	}
+
+	.ourbenefits-metadata{
+		color: #ffffff;
+		margin: 0 auto;
+		margin-top: 100px;
+		//width: 300px;
+		border-top: 1px solid #ffffff;
+		border-bottom: 1px solid #ffffff;
+		letter-spacing: 1.5px;
+		margin-bottom: 40px;
+	}
+
+}
+
+
+#featuredin{
+	text-align: center;
+	h2{
+		color: #5f5f5f;
+		margin-top: 100px;
+	}
+	.featuredin-metadata{
+		text-align: center;
+		color: #5f5f5f;
+		margin: 0 auto;
+		margin-top: 20px;
+		width: 300px;
+		border-top: 1px solid #5f5f5f;
+		border-bottom: 1px solid #5f5f5f;
+		letter-spacing: 1.5px;
+		margin-bottom: 40px;
+	}
+	.iconmargin{
+		margin-bottom: 100px;
+	}
+}
+
+#findus{
+	width: 100%;
+	height: 450px;
+	background-image: url('findus.jpg');
+	//background-color: red;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	text-align: center;
+
+	.vcenterfindus{
+		//position: relative;
+		//top: 50%;
+		//transform: translateY(-50%);
+		.needhelp{
+			margin-top: 50px;
+		}
+		.phone{
+			margin-top: 20px;
+			font-size: 70px;
+		}		
+		.meta-data{
+			margin: 0 auto;
+			margin-top: 20px;
+			width: 300px;
+			border-top: 3px solid #ffffff;
+			border-bottom: 3px solid #ffffff;
+			letter-spacing: 1.5px;
+			margin-bottom: 40px;	
+		}
+	}
+}
+
+#contactus{
+	font-size: 1.2em;
+	text-align: center;
+	width: 100%;
+	//height: 125px;
+	.contact{
+		margin-top: 50px;
+		margin-bottom: 50px;
+		//width: 100%;
+		//height: 125px;
+		//background-color: red;
+		.borderright{
+			border-right: 3px solid #5f5f5f;
+		} 
+		.myicon{
+			display: inline;
+			margin-right: 10px;
+		}
+		p{
+			display: inline;
+		}
+	}
+}
+
+footer{
+	background-color: #5f5f5f;
+	color: #ffffff;
+	.borderless{
+		background-color: #5f5f5f;
+		border: 0 none;
+	}
+}
+
+
+

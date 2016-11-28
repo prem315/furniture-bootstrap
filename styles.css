@@ -1,0 +1,320 @@
+body {
+  font-family: 'Lato', sans-serif; }
+
+header nav.navbar {
+  margin-bottom: 0px;
+  border-width: 0 0 0 0; }
+  header nav.navbar.affix {
+    background-color: #5f5f5f; }
+  header nav.navbar.affix-top {
+    background-color: transparent; }
+  header nav.navbar.navbar-default .navbar-nav > li > a, header nav.navbar.navbar-default .navbar-nav > li > a:hover, header nav.navbar.navbar-default .navbar-nav > li > a:visited, header nav.navbar.navbar-default .navbar-nav > li > a:link {
+    color: #ffffff;
+    transition: border-color 0.3s ease-in;
+    font-size: 1.2em; }
+  header nav.navbar.navbar-default .navbar-nav > li > a:hover {
+    border-bottom: 3px solid #ffffff; }
+  header nav.navbar .navbar-brand {
+    font-size: 2em;
+    color: #ffffff; }
+    header nav.navbar .navbar-brand:hover {
+      color: #ffffff; }
+  header nav.navbar .fa-stack {
+    margin-top: 6px; }
+    header nav.navbar .fa-stack .yellow-background {
+      color: yellow; }
+
+.input[type=text] {
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out; }
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+  width: 100%; }
+
+#land {
+  width: 100%;
+  height: 87vh;
+  background-image: url("furniture.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  text-align: center;
+  min-height: 568px; }
+  #land .vcenter {
+    border: 1px solid transparent;
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%); }
+    #land .vcenter .main-heading {
+      letter-spacing: 1.5px;
+      margin: 20px 0; }
+    #land .vcenter .meta-info {
+      margin: 10px 0;
+      letter-spacing: 1.5px;
+      font-size: 1.2em; }
+    #land .vcenter .main-search {
+      margin: 0 auto;
+      width: 545px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      /* height: 50px; */
+      /* text-align: center; */
+      /* left: 50%; */
+      background-color: rgba(95, 95, 95, 0.7); }
+    #land .vcenter .input-group {
+      position: relative;
+      border-collapse: separate; }
+      #land .vcenter .input-group .form-control {
+        height: 50px;
+        width: 300px;
+        border-radius: 3px 0 0 3px;
+        box-shadow: 0 0 0;
+        -webkit-box-shadow: 0 0 0;
+        -moz-box-shadow: 0 0 0;
+        border: 0;
+        color: #787878;
+        font-size: 18px;
+        padding: 0 0 0 30px; }
+      #land .vcenter .input-group .mydropdown {
+        height: 50px;
+        width: 120px;
+        background-color: #ffffff;
+        border-color: #ffffff;
+        color: black;
+        border-radius: 0px; }
+    #land .vcenter .search-button {
+      background-color: #5f5f5f;
+      height: 50px;
+      width: 100px;
+      color: #FFF;
+      font-size: 14px;
+      border-radius: 0 3px 3px 0;
+      box-shadow: 0 0 0;
+      -webkit-box-shadow: 0 0 0;
+      -moz-box-shadow: 0 0 0;
+      border: 0;
+      margin-left: -3px; }
+  #land .main-search .form-inline .form-group {
+    position: relative;
+    height: 50px;
+    width: 700px;
+    border-radius: 3px 0 0 3px;
+    box-shadow: 0 0 0;
+    -webkit-box-shadow: 0 0 0;
+    -moz-box-shadow: 0 0 0;
+    border: 0;
+    color: #787878;
+    font-size: 18px;
+    padding: 0 0 0 30px; }
+
+#howitworks .howitworkscontainer {
+  margin-top: 40px;
+  margin-bottom: 70px; }
+#howitworks .textdata {
+  text-align: center; }
+  #howitworks .textdata h2 {
+    margin: 30px;
+    color: #5f5f5f; }
+  #howitworks .textdata p {
+    color: #5f5f5f;
+    margin: 0 auto;
+    width: 300px;
+    border-top: 1px solid #5f5f5f;
+    border-bottom: 1px solid #5f5f5f;
+    letter-spacing: 1.5px; }
+#howitworks .search {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center; }
+
+#portfolio {
+  min-height: 35em;
+  /* .btn-group .btn {
+    margin-right: 1em;
+  } */ }
+  #portfolio hr {
+    background-color: #ff0;
+    width: 20em;
+    height: 2px; }
+  #portfolio .hr-star {
+    position: relative;
+    top: -2.3em;
+    display: inline-block;
+    color: yellow;
+    background-color: white;
+    width: 2em;
+    text-align: center;
+    margin-left: 46em; }
+  #portfolio h2 {
+    text-align: center;
+    font-size: 3.1em;
+    margin-top: 2em;
+    color: #729BCC; }
+  #portfolio p {
+    text-align: center;
+    padding-top: 0em;
+    padding-bottom: 2em; }
+  #portfolio .pad {
+    padding: 0 !important; }
+  #portfolio .img-pic {
+    position: relative; }
+    #portfolio .img-pic img {
+      width: auto;
+      height: 250px; }
+    #portfolio .img-pic .text-overlay {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      visibility: hidden; }
+    #portfolio .img-pic:hover .text-overlay {
+      visibility: visible; }
+  #portfolio .furniture-background {
+    text-align: center;
+    background-color: #5f5f5f;
+    height: 70px; }
+    #portfolio .furniture-background .mybutton {
+      height: 70px;
+      border-radius: 0;
+      width: 125px; }
+
+#whyus .textdata-whyus {
+  text-align: center; }
+  #whyus .textdata-whyus h2 {
+    margin-top: 50px;
+    color: #5f5f5f; }
+  #whyus .textdata-whyus .pborder {
+    color: #5f5f5f;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 300px;
+    border-top: 1px solid #5f5f5f;
+    border-bottom: 1px solid #5f5f5f;
+    letter-spacing: 1.5px; }
+  #whyus .textdata-whyus .pwborder {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 700px; }
+#whyus .back-image {
+  color: red;
+  margin-top: 20px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center; }
+#whyus .stylehr:after {
+  content: '\002702';
+  display: inline-block;
+  position: relative;
+  top: -12px;
+  left: 40px;
+  padding: 0 3px;
+  background: #f0f0f0;
+  color: #8c8b8b;
+  font-size: 18px; }
+
+#ourbenefits {
+  width: 100%;
+  height: 700px;
+  background-image: url("ourbenefits2.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  text-align: center; }
+  #ourbenefits .meta-data {
+    color: #ffffff;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 300px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    letter-spacing: 1.5px;
+    margin-bottom: 40px; }
+  #ourbenefits .circle {
+    width: 240px;
+    height: 240px;
+    border: 3px solid #ffffff;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 120px;
+    margin: 0 auto;
+    text-align: center; }
+    #ourbenefits .circle .inside-circle {
+      line-height: 240px;
+      text-transform: uppercase;
+      font-size: 1.2em; }
+  #ourbenefits .ourbenefits-metadata {
+    color: #ffffff;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    letter-spacing: 1.5px;
+    margin-bottom: 40px; }
+
+#featuredin {
+  text-align: center; }
+  #featuredin h2 {
+    color: #5f5f5f;
+    margin-top: 100px; }
+  #featuredin .featuredin-metadata {
+    text-align: center;
+    color: #5f5f5f;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 300px;
+    border-top: 1px solid #5f5f5f;
+    border-bottom: 1px solid #5f5f5f;
+    letter-spacing: 1.5px;
+    margin-bottom: 40px; }
+  #featuredin .iconmargin {
+    margin-bottom: 100px; }
+
+#findus {
+  width: 100%;
+  height: 450px;
+  background-image: url("findus.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  text-align: center; }
+  #findus .vcenterfindus .needhelp {
+    margin-top: 50px; }
+  #findus .vcenterfindus .phone {
+    margin-top: 20px;
+    font-size: 70px; }
+  #findus .vcenterfindus .meta-data {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 300px;
+    border-top: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+    letter-spacing: 1.5px;
+    margin-bottom: 40px; }
+
+#contactus {
+  font-size: 1.2em;
+  text-align: center;
+  width: 100%; }
+  #contactus .contact {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    #contactus .contact .borderright {
+      border-right: 3px solid #5f5f5f; }
+    #contactus .contact .myicon {
+      display: inline;
+      margin-right: 10px; }
+    #contactus .contact p {
+      display: inline; }
+
+footer {
+  background-color: #5f5f5f;
+  color: #ffffff; }
+  footer .borderless {
+    background-color: #5f5f5f;
+    border: 0 none; }
+
+/*# sourceMappingURL=styles.css.map */
