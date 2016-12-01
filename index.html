@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>furniture site</title>
 
@@ -78,7 +79,7 @@
 	<section id="land">
 		<div class="vcenter">
 			<div class="container-fluid">
-				<div class="row">
+				<div class="row hidden-xs">
 					<h2 class="main-heading">Find Furniture and Other Products on Rent</h2>
 					
 
@@ -107,10 +108,48 @@
 					<button type="submit" class="btn btn-default search-btn search-button">Search</button> </form>
 					</div>
 
-					<div class="meta-info">A Market Place For Rental of Furnitures.</div>
 				</div>
+				<div class="meta-info">A Market Place For Rental of Furnitures.</div>
 			</div>
 		</div>
+	</section>
+
+	<section id="searchsecond">
+		<div class="vcenter">
+			<div class="container-fluid">
+				<div class="row hidden-lg hidden-md">
+					<!-- <h2 class="main-heading">Find Furniture and Other Products on Rent</h2> -->
+					
+
+					<div class="main-search">
+					<form class="form-inline" name="searchRentoFurniture"> 
+					<div class="input-group"> 
+						<input type="text" class="form-control" id="search" name="searchMojo" placeholder="I want to rent..." autocomplete="off" search-focus="" aria-invalid="false">
+						<div>
+							<div class="search-results-block" aria-hidden="true" style="display: none;"> 
+								<div class="no-results-container"> 
+								</div> 
+							</div> 
+						</div>  
+					</div>
+					<div class="input-group">
+						
+						  <button class="btn btn-primary dropdown-toggle mydropdown" type="button" data-toggle="dropdown">Category
+						  <span class="caret"></span></button>
+						  <ul class="dropdown-menu">
+						    <li><a href="#">HTML</a></li>
+						    <li><a href="#">CSS</a></li>
+						    <li><a href="#">JavaScript</a></li>
+						  </ul>
+						
+					</div> 
+					<button type="submit" class="btn btn-default search-btn search-button">Search</button> </form>
+					</div>
+
+					
+				</div>
+			</div>
+		</div>	
 	</section>
 
 
@@ -121,32 +160,40 @@
 		</div>
 		<div class="container howitworkscontainer">
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-3 howitworks-text">
 					<span class="fa-stack fa-4x search">
 					  <i class="fa fa-circle fa-stack-2x"></i>
 					  <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
 					</span>
+					<h3>You Choose</h3>
+					<p>The furniture you want</p>
 					<!-- <i class="fa fa-long-arrow-right fa-2x"></i> -->
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 howitworks-text">
 					<span class="fa-stack fa-4x search">
 					  <i class="fa fa-circle fa-stack-2x"></i>
 					  <i class="fa fa-truck fa-stack-1x fa-inverse"></i>
 					</span>
+					<h3>You Choose</h3>
+					<p>The furniture you want</p>
 					<!-- <i class="fa fa-long-arrow-right fa-2x"></i> -->
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 howitworks-text">
 					<span class="fa-stack fa-4x search">
 					  <i class="fa fa-circle fa-stack-2x"></i>
 					  <i class="fa fa-wrench fa-stack-1x fa-inverse"></i>
 					</span>
+					<h3>You Choose</h3>
+					<p>The furniture you want</p>
 					<!-- <i class="fa fa-long-arrow-right fa-2x"></i> -->
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 howitworks-text">
 					<span class="fa-stack fa-4x search">
 					  <i class="fa fa-circle fa-stack-2x"></i>
 					  <i class="fa fa-smile-o fa-stack-1x fa-inverse"></i>
 					</span>
+					<h3>You Choose</h3>
+					<p>The furniture you want</p>
 				</div>	
 			</div>
 		</div>
@@ -166,8 +213,32 @@
 		          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo voluptas dolore at, cupiditate pariatur, ea sequi illum beatae accusantium! Doloribus.
 		        </p>
 		      </div> -->
+		      <div class="vcenter">
+			      	<div class="container-fluid">
+			      		<div class="row hidden-md hidden-lg">
+				      		<form class="form-inline" name="searchRentoFurniture">
+				      			<div class="input-group">
+								
+								  <button class="btn btn-primary dropdown-toggle mydropdown" type="button" data-toggle="dropdown">Category
+								  <span class="caret"></span></button>
+								  <ul class="dropdown-menu">
+								    <li><a href="#">All</a></li>
+								    <li><a href="#">Packages</a></li>
+								    <li><a href="#">Living Room</a></li>
+								    <li><a href="#">Bed Room</a></li>
+								    <li><a href="#">Kitchen</a></li>
+								  </ul>
+								
+							</div>
+				      		</form>
+			      			
+			      		</div>
+			      	</div>
+		      	
+		      </div>
+
 		      <div class="container-fluid">
-			      <div class="row btng">    
+			      <div class="row btng hidden-xs">    
 			        <div class="col-md-12 furniture-background">
 			          <div class="btn-group btn-group-lg" role="group" aria-label="...">
 			            <button type="button" id="all" class="btn btn-default mybutton">All</button>
@@ -181,79 +252,79 @@
 		      </div>
 		      <div class="container-fluid">
 		        <div class="row cc">
-		          <div class="col-md-3 col-sm-3 pad">
+		          <div class="col-md-3 col-sm-6 col-xs-12 pad">
 		            <div class="img-pic">
 		              <img src="assets/images/b1.jpg" class="img-responsive all web">
 		              
 		            </div>
 		          </div>
-		          <div class="col-md-3 col-sm-3 pad">
+		          <div class="col-md-3 col-sm-6 col-xs-12 pad">
 		            <div class="img-pic">
-		              <img src="assets/images/k1.jpg" class="img-responsive all logo">
+		              <img src="assets/images/b1.jpg" class="img-responsive all logo">
 		              
 		            </div>
 		          </div>
-		          <div class="col-md-3 col-sm-3 pad">
+		          <div class="col-md-3 col-sm-6 col-xs-12 pad">
 		            <div class="img-pic">
-		              <img src="assets/images/l1.jpg" class="img-responsive all e-comm">
+		              <img src="assets/images/b1.jpg" class="img-responsive all e-comm">
 		              
 		            </div>
 		          </div>
-		          <div class="col-md-3 col-sm-3 pad">
+		          <div class="col-md-3 col-sm-6 col-xs-12 pad">
 		            <div class="img-pic">
-		              <img src="assets/images/b2.jpg" class="img-responsive all mount">
+		              <img src="assets/images/b1.jpg" class="img-responsive all mount">
 		              
 		            </div>
 		          </div>  
 		        </div>  
 		        <div class="row bb">
-		          <div class="col-md-3 col-sm-3 pad">
+		          <div class="col-md-3 col-sm-6 col-xs-12 pad">
 		            <div class="img-pic">
-		              <img src="assets/images/k2.jpg" class="img-responsive all web">
+		              <img src="assets/images/b1.jpg" class="img-responsive all web">
 		              
 		            </div>
 		          </div>
-		          <div class="col-md-3 col-sm-3 pad">
+		          <div class="col-md-3 col-sm-6 col-xs-12 pad">
 		            <div class="img-pic">
-		              <img src="assets/images/l2.jpg" class="img-responsive all logo">
+		              <img src="assets/images/b1.jpg" class="img-responsive all logo">
 		              
 		            </div>
 		          </div>
-		          <div class="col-md-3 col-sm-3 pad">
+		          <div class="col-md-3 col-sm-6 col-xs-12 pad">
 		            <div class="img-pic">
-		              <img src="assets/images/b3.jpg" class="img-responsive all e-comm">
+		              <img src="assets/images/b1.jpg" class="img-responsive all e-comm">
 		              
 		            </div>
 		          </div>
-		          <div class="col-md-3 col-sm-3 pad">
+		          <div class="col-md-3 col-sm-6 col-xs-12 pad">
 		            <div class="img-pic">
-		              <img src="assets/images/l3.jpg" class="img-responsive all mount">
+		              <img src="assets/images/b1.jpg" class="img-responsive all mount">
 		              
 		            </div>
 		          </div>  
 		        </div>
 		        <div class="row bb">
-		          <div class="col-md-3 col-sm-3 pad">
+		          <div class="col-md-3 col-sm-6 col-xs-12 pad">
 		            <div class="img-pic">
-		              <img src="assets/images/k2.jpg" class="img-responsive all web">
+		              <img src="assets/images/b1.jpg" class="img-responsive all web">
 		              
 		            </div>
 		          </div>
-		          <div class="col-md-3 col-sm-3 pad">
+		          <div class="col-md-3 col-sm-6 col-xs-12 pad">
 		            <div class="img-pic">
-		              <img src="assets/images/l2.jpg" class="img-responsive all logo">
+		              <img src="assets/images/b1.jpg" class="img-responsive all logo">
 		              
 		            </div>
 		          </div>
-		          <div class="col-md-3 col-sm-3 pad">
+		          <div class="col-md-3 col-sm-6 col-xs-12 pad">
 		            <div class="img-pic">
-		              <img src="assets/images/b3.jpg" class="img-responsive all e-comm">
+		              <img src="assets/images/b1.jpg" class="img-responsive all e-comm">
 		              
 		            </div>
 		          </div>
-		          <div class="col-md-3 col-sm-3 pad">
+		          <div class="col-md-3 col-sm-6 col-xs-12 pad">
 		            <div class="img-pic">
-		              <img src="assets/images/l3.jpg" class="img-responsive all mount">
+		              <img src="assets/images/b1.jpg" class="img-responsive all mount">
 		              
 		            </div>
 		          </div>  
@@ -339,37 +410,37 @@
     			<div class="col-md-1"></div>
     			<div class="col-md-1"></div>
     			<div class="col-md-1"></div>
-    			<div class="col-md-1">
+    			<div class="col-md-1 col-xs-2">
     				<span class="fa-stack fa-lg">
 					  <i class="fa fa-circle fa-stack-2x"></i>
 					  <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
 					</span>
     			</div>
-    			<div class="col-md-1">
+    			<div class="col-md-1 col-xs-2">
     				<span class="fa-stack fa-lg">
 					  <i class="fa fa-circle fa-stack-2x"></i>
 					  <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
 					</span>
     			</div>
-    			<div class="col-md-1">
+    			<div class="col-md-1 col-xs-2">
     				<span class="fa-stack fa-lg">
 					  <i class="fa fa-circle fa-stack-2x"></i>
 					  <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
 					</span>
     			</div>
-    			<div class="col-md-1">
+    			<div class="col-md-1 col-xs-2">
     				<span class="fa-stack fa-lg">
 					  <i class="fa fa-circle fa-stack-2x"></i>
 					  <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
 					</span>
     			</div>
-    			<div class="col-md-1">
+    			<div class="col-md-1 col-xs-2">
     				<span class="fa-stack fa-lg">
 					  <i class="fa fa-circle fa-stack-2x"></i>
 					  <i class="fa fa-flag fa-stack-1x fa-inverse"></i>
 					</span>
     			</div>
-    			<div class="col-md-1">
+    			<div class="col-md-1 col-xs-2">
     				<span class="fa-stack fa-lg">
 					  <i class="fa fa-circle fa-stack-2x"></i>
 					  <i class="fa fa-flag fa-stack-1x fa-inverse"></i>

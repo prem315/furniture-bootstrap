@@ -113,6 +113,8 @@ input[type=text]:focus {
 #howitworks .howitworkscontainer {
   margin-top: 40px;
   margin-bottom: 70px; }
+  #howitworks .howitworkscontainer .howitworks-text {
+    text-align: center; }
 #howitworks .textdata {
   text-align: center; }
   #howitworks .textdata h2 {
@@ -162,8 +164,7 @@ input[type=text]:focus {
   #portfolio .img-pic {
     position: relative; }
     #portfolio .img-pic img {
-      width: auto;
-      height: 250px; }
+      width: auto; }
     #portfolio .img-pic .text-overlay {
       position: absolute;
       top: 50%;
@@ -316,5 +317,122 @@ footer {
   footer .borderless {
     background-color: #5f5f5f;
     border: 0 none; }
+
+@media (min-width: 501px) and (max-width: 767px) {
+  #land {
+    /* input#search {
+    	width: 545px;
+    } */ }
+    #land .vcenter .main-heading {
+      font-size: 25px; }
+    #land .vcenter #search {
+      width: 545px;
+      margin-bottom: 6px; }
+    #land .vcenter .input-group .mydropdown {
+      width: 545px; }
+    #land .vcenter .search-button {
+      width: 545px;
+      margin-left: 0px; }
+
+  #portfolio .img-pic img {
+    width: auto;
+    height: auto; }
+
+  #ourbenefits {
+    height: 1500px; }
+    #ourbenefits .circle {
+      margin-bottom: 20px; } }
+@media (min-width: 768px) and (max-width: 1024px) {
+  #portfolio .img-pic img {
+    width: auto;
+    height: auto; }
+
+  #ourbenefits {
+    height: 1500px; }
+    #ourbenefits .circle {
+      margin-bottom: 20px; } }
+@media (min-width: 320px) and (max-width: 500px) {
+  #land .vcenter .main-search {
+    width: auto; }
+
+  #searchsecond .vcenter .main-search {
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* height: 50px; */
+    /* text-align: center; */
+    /* left: 50%; */
+    background-color: rgba(95, 95, 95, 0.7); }
+  #searchsecond .vcenter .input-group {
+    position: relative;
+    border-collapse: separate;
+    margin-bottom: 4px;
+    width: 100%; }
+    #searchsecond .vcenter .input-group .form-control {
+      height: 50px;
+      width: 100% !important;
+      max-width: 500px;
+      margin: 0 auto;
+      text-align: center;
+      border-radius: 3px 0 0 3px;
+      box-shadow: 0 0 0;
+      -webkit-box-shadow: 0 0 0;
+      -moz-box-shadow: 0 0 0;
+      border: 0;
+      color: #787878;
+      font-size: 18px;
+      padding: 0 0 0 30px; }
+    #searchsecond .vcenter .input-group .mydropdown {
+      height: 50px;
+      width: 100% !important;
+      max-width: 500px;
+      margin: 0 auto;
+      text-align: center;
+      background-color: #ffffff;
+      border-color: #ffffff;
+      color: black;
+      border-radius: 0px; }
+  #searchsecond .vcenter .search-button {
+    background-color: #5f5f5f;
+    height: 50px;
+    width: 100% !important;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFF;
+    font-size: 14px;
+    border-radius: 0 3px 3px 0;
+    box-shadow: 0 0 0;
+    -webkit-box-shadow: 0 0 0;
+    -moz-box-shadow: 0 0 0;
+    border: 0; }
+
+  #whyus .textdata-whyus .pwborder {
+    width: auto; }
+
+  #ourbenefits {
+    height: 1700px; }
+    #ourbenefits .circle {
+      margin-bottom: 20px; }
+
+  #findus .vcenterfindus {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+    #findus .vcenterfindus .phone {
+      font-size: 35px; }
+
+  #portfolio .vcenter .input-group {
+    width: 100%; }
+    #portfolio .vcenter .input-group .mydropdown {
+      height: 50px;
+      width: 100% !important;
+      max-width: 500px;
+      text-align: center;
+      margin: 0 auto;
+      background-color: #ffe100;
+      border-color: #ffe100;
+      color: black;
+      border-radius: 0px; } }
 
 /*# sourceMappingURL=styles.css.map */

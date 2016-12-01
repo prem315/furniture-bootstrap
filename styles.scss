@@ -171,6 +171,9 @@ input[type=text]:focus {
 	.howitworkscontainer{
 		margin-top: 40px;
 		margin-bottom: 70px;
+		.howitworks-text{
+			text-align: center;
+		}
 	}
 	.textdata{
 		text-align: center;
@@ -255,7 +258,7 @@ input[type=text]:focus {
 
     img {
       width: auto;
-      height: 250px;
+      //height: 250px;
     }
 
     .text-overlay {
@@ -482,6 +485,211 @@ footer{
 	.borderless{
 		background-color: #5f5f5f;
 		border: 0 none;
+	}
+}
+
+
+@media (min-width: 501px) and (max-width: 767px) {
+
+	#land{
+		.vcenter{
+			.main-heading{
+				font-size: 25px;
+			}
+			#search {
+				//margin: 0 auto;
+			    width: 545px;
+			    margin-bottom: 6px;
+			}
+			.input-group{
+				.mydropdown{
+					width: 545px;
+				}
+			}	
+			.search-button{
+				width: 545px;
+				margin-left: 0px;
+			}
+		}
+
+		/* input#search {
+			width: 545px;
+		} */
+
+		
+	}
+
+	#portfolio .img-pic img {
+		width: auto;
+		height: auto;
+	}
+
+	// #portfolio{
+	// 	img-pic {
+ //    		position: relative;
+
+	// 	    img {
+	// 	      width: auto;
+	// 	      height: auto;
+	// 	    }
+	// 	}
+	// }
+
+	#ourbenefits{
+		height: 1500px;
+		.circle{
+			margin-bottom: 20px;
+		}
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+	#portfolio .img-pic img {
+		width: auto;
+		height: auto;
+	}
+
+	#ourbenefits{
+		height: 1500px;
+		.circle{
+			margin-bottom: 20px;
+		}
+	}
+}
+
+@media (min-width: 320px) and (max-width: 500px){
+	#land{
+		.vcenter{
+			.main-search{
+				width: auto;
+			}
+		}
+	}
+	#searchsecond{
+		.vcenter{
+			// .main-search{
+			// }
+			.main-search {
+				margin: 0 auto;
+				//width: auto;
+			    //width: 545px;
+			    padding-top: 10px;
+			    padding-bottom: 10px;
+			    /* height: 50px; */
+			    /* text-align: center; */
+			    /* left: 50%; */
+			    background-color: rgba(95, 95, 95, 0.7);
+			}
+
+			.input-group{
+				position: relative;
+				border-collapse: separate;
+				margin-bottom: 4px;
+				width: 100%;
+				//border: 1px solid red;
+
+				.form-control{
+					height: 50px;
+				    //width: 320px;
+				    width: 100% !important;
+				    max-width: 500px;
+				    margin: 0 auto;
+				    text-align: center;
+				    border-radius: 3px 0 0 3px;
+				    box-shadow: 0 0 0;
+				    -webkit-box-shadow: 0 0 0;
+				    -moz-box-shadow: 0 0 0;
+				    border: 0;
+				    color: #787878;
+				    font-size: 18px;
+				    padding: 0 0 0 30px;
+				}
+
+				.mydropdown{
+					height: 50px;
+					//width: 320px;
+					width: 100% !important;
+				    max-width: 500px;
+				    margin: 0 auto;
+				    text-align: center;
+					background-color: #ffffff;
+					border-color: #ffffff;
+					color: black;
+					//margin-left: -4px;
+					border-radius: 0px;
+				}
+			}
+
+			.search-button{
+				//background: #dc3226;
+				background-color: rgb(95, 95, 95);
+			    height: 50px;
+			    //width: 320px;
+			    width: 100% !important;
+			    max-width: 500px;
+			    margin: 0 auto;
+			    text-align: center;
+			    color: #FFF;
+			    font-size: 14px;
+			    border-radius: 0 3px 3px 0;
+			    box-shadow: 0 0 0;
+			    -webkit-box-shadow: 0 0 0;
+			    -moz-box-shadow: 0 0 0;
+			    border: 0;
+			    //margin-left: -3px;
+			}
+		}
+	}
+	#whyus{
+		.textdata-whyus{
+			.pwborder{
+				width: auto;
+			}
+
+		} 
+
+	} 
+
+	#ourbenefits{
+		height: 1700px;
+		.circle{
+			margin-bottom: 20px;
+		}
+	}
+
+	#findus{
+		.vcenterfindus{
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+			.phone{
+				font-size: 35px;
+			}
+		} 
+	}
+	#portfolio{
+		.vcenter{
+			.input-group{
+				//position: relative;
+				//border-collapse: separate;
+				//margin-bottom: 4px;
+				//border: 1px solid red;
+				width: 100%;
+
+				.mydropdown{
+					height: 50px;
+					width: 100% !important;
+					max-width: 500px;
+					text-align: center;
+					margin: 0 auto;
+					background-color: #ffe100;
+					border-color: #ffe100;
+					color: black;
+					//margin-left: -4px;
+					border-radius: 0px;
+				}
+			}
+		}
 	}
 }
 
