@@ -3,22 +3,35 @@ body {
 
 header nav.navbar {
   margin-bottom: 0px;
-  border-width: 0 0 0 0; }
+  border-width: 0 0 0 0;
+  color: #5f5f5f;
+  text-transform: uppercase; }
   header nav.navbar.affix {
-    background-color: #5f5f5f; }
+    background-color: #5f5f5f;
+    color: #5f5f5f; }
   header nav.navbar.affix-top {
     background-color: transparent; }
-  header nav.navbar.navbar-default .navbar-nav > li > a, header nav.navbar.navbar-default .navbar-nav > li > a:hover, header nav.navbar.navbar-default .navbar-nav > li > a:visited, header nav.navbar.navbar-default .navbar-nav > li > a:link {
-    color: #ffffff;
-    transition: border-color 0.3s ease-in;
-    font-size: 1.2em; }
-  header nav.navbar.navbar-default .navbar-nav > li > a:hover {
-    border-bottom: 3px solid #ffffff; }
+  header nav.navbar.navbar-default .navbar-nav > li > a {
+    color: #5f5f5f; }
+    header nav.navbar.navbar-default .navbar-nav > li > a, header nav.navbar.navbar-default .navbar-nav > li > a:hover, header nav.navbar.navbar-default .navbar-nav > li > a:visited, header nav.navbar.navbar-default .navbar-nav > li > a:link {
+      color: #ffffff;
+      transition: border-color 0.3s ease-in;
+      font-size: 1.2em; }
+    header nav.navbar.navbar-default .navbar-nav > li > a:hover {
+      border-bottom: 3px solid #ffffff;
+      color: #ffe100; }
+  header nav.navbar .navbar-header {
+    padding: 1em; }
   header nav.navbar .navbar-brand {
     font-size: 2em;
     color: #ffffff; }
     header nav.navbar .navbar-brand:hover {
       color: #ffffff; }
+  header nav.navbar .img-responsive2 {
+    height: 3em;
+    width: 12em; }
+  header nav.navbar .collapse {
+    margin: 1em; }
   header nav.navbar .fa-stack {
     margin-top: 6px; }
     header nav.navbar .fa-stack .yellow-background {
@@ -36,11 +49,10 @@ input[type=text]:focus {
 #land {
   width: 100%;
   height: 87vh;
-  background-image: url("furniture.jpg");
+  background-image: url("homepagebackground.png");
   background-size: cover;
-  background-position: 50% 50%;
   background-repeat: no-repeat;
-  color: #ffffff;
+  color: #5f5f5f;
   text-align: center;
   min-height: 568px; }
   #land .vcenter {
@@ -48,6 +60,8 @@ input[type=text]:focus {
     position: relative;
     top: 30%;
     transform: translateY(-50%); }
+    #land .vcenter .row {
+      margin-top: 50px; }
     #land .vcenter .main-heading {
       letter-spacing: 1.5px;
       margin: 20px 0; }
@@ -196,8 +210,7 @@ input[type=text]:focus {
     letter-spacing: 1.5px; }
   #whyus .textdata-whyus .pwborder {
     margin: 0 auto;
-    margin-top: 20px;
-    width: 700px; }
+    margin-top: 20px; }
 #whyus .back-image {
   color: red;
   margin-top: 20px;
@@ -218,7 +231,7 @@ input[type=text]:focus {
 #ourbenefits {
   width: 100%;
   height: 700px;
-  background-image: url("ourbenefits2.jpg");
+  background-image: url("homepagebenefits.png");
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -271,12 +284,12 @@ input[type=text]:focus {
     letter-spacing: 1.5px;
     margin-bottom: 40px; }
   #featuredin .iconmargin {
-    margin-bottom: 100px; }
+    margin-bottom: 150px; }
 
 #findus {
   width: 100%;
   height: 450px;
-  background-image: url("findus.jpg");
+  background-image: url("needahelp.png");
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -301,13 +314,16 @@ input[type=text]:focus {
   text-align: center;
   width: 100%; }
   #contactus .contact {
-    margin-top: 50px;
-    margin-bottom: 50px; }
+    margin-top: 20px;
+    margin-bottom: 20px; }
     #contactus .contact .borderright {
-      border-right: 3px solid #5f5f5f; }
+      border-right: 1px solid #5f5f5f;
+      padding: 20px 20px 20px 20px; }
     #contactus .contact .myicon {
       display: inline;
       margin-right: 10px; }
+    #contactus .contact .withoutborder {
+      padding: 20px 20px 20px 20px; }
     #contactus .contact p {
       display: inline; }
 
@@ -352,8 +368,10 @@ footer {
     #ourbenefits .circle {
       margin-bottom: 20px; } }
 @media (min-width: 320px) and (max-width: 500px) {
-  #land .vcenter .main-search {
-    width: auto; }
+  #land {
+    background-position: 50% 50%; }
+    #land .vcenter .main-search {
+      width: auto; }
 
   #searchsecond .vcenter .main-search {
     margin: 0 auto;
@@ -433,6 +451,9 @@ footer {
       background-color: #ffe100;
       border-color: #ffe100;
       color: black;
-      border-radius: 0px; } }
+      border-radius: 0px; }
+
+  #featuredin .fa-3x {
+    font-size: 1.5em; } }
 
 /*# sourceMappingURL=styles.css.map */

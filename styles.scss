@@ -6,9 +6,11 @@ header{
 		margin-bottom: 0px;
 		//background-color: transparent;
 		border-width: 0 0 0 0;
-
+		color: #5f5f5f;
+		text-transform: uppercase;
 		&.affix{
 			background-color: #5f5f5f;
+			color: #5f5f5f;
 		}
 
 		&.affix-top{
@@ -16,6 +18,7 @@ header{
 		}
 
 		&.navbar-default .navbar-nav>li>a{
+			color: #5f5f5f;
 			&, &:hover, &:visited, &:link{
 				color: #ffffff;
 				transition: border-color 0.3s ease-in;
@@ -23,7 +26,12 @@ header{
 			}
 			&:hover{
 				border-bottom: 3px solid #ffffff;
+				color: #ffe100;
 			}
+		}
+
+		.navbar-header{
+			padding: 1em;
 		}
 
 		.navbar-brand{
@@ -35,6 +43,15 @@ header{
 			}
 		}
 
+		.img-responsive2{
+			height: 3em;
+			width: 12em;
+		}
+
+		.collapse{
+			margin: 1em;
+		}
+
 		.fa-stack{
 			margin-top: 6px;
 
@@ -43,9 +60,8 @@ header{
 			}
 		}
 	}
-
-
 }
+
 
 .input[type=text] {
     width: 130px;
@@ -62,11 +78,11 @@ input[type=text]:focus {
 #land{
 	width: 100%;
 	height: 87vh;
-	background-image: url('furniture.jpg');
+	background-image: url('homepagebackground.png');
 	background-size: cover;
-	background-position: 50% 50%;
+	//background-position: 50% 50%;
 	background-repeat: no-repeat;
-	color: #ffffff;
+	color: #5f5f5f;
 	text-align: center;
 	min-height: 568px;
 	//min-height: 87vh;
@@ -76,6 +92,10 @@ input[type=text]:focus {
 		position: relative;
 		top: 30%;
 		transform: translateY(-50%);
+
+		.row{
+			margin-top: 50px;
+		}
 
 		.main-heading{
 			letter-spacing: 1.5px;
@@ -311,7 +331,7 @@ input[type=text]:focus {
 		.pwborder{
 			margin: 0 auto;
 			margin-top: 20px;
-			width: 700px;
+			//width: 700px;
 			//border: 1px solid red;
 		}
 	}
@@ -346,7 +366,7 @@ input[type=text]:focus {
 #ourbenefits{
 	width: 100%;
 	height: 700px;
-	background-image: url('ourbenefits2.jpg');
+	background-image: url('homepagebenefits.png');
 	//background-color: red;
 	background-size: cover;
 	background-position: 50% 50%;
@@ -417,14 +437,14 @@ input[type=text]:focus {
 		margin-bottom: 40px;
 	}
 	.iconmargin{
-		margin-bottom: 100px;
+		margin-bottom: 150px;
 	}
 }
 
 #findus{
 	width: 100%;
 	height: 450px;
-	background-image: url('findus.jpg');
+	background-image: url('needahelp.png');
 	//background-color: red;
 	background-size: cover;
 	background-position: 50% 50%;
@@ -461,20 +481,25 @@ input[type=text]:focus {
 	width: 100%;
 	//height: 125px;
 	.contact{
-		margin-top: 50px;
-		margin-bottom: 50px;
+		margin-top: 20px;
+		margin-bottom: 20px;
 		//width: 100%;
 		//height: 125px;
 		//background-color: red;
 		.borderright{
-			border-right: 3px solid #5f5f5f;
+			border-right: 1px solid #5f5f5f;
+			padding: 20px 20px 20px 20px;
 		} 
 		.myicon{
 			display: inline;
 			margin-right: 10px;
 		}
+		.withoutborder{
+			padding: 20px 20px 20px 20px;
+		}
 		p{
 			display: inline;
+			//padding: 20px 20px 20px 20px;
 		}
 	}
 }
@@ -559,6 +584,7 @@ footer{
 
 @media (min-width: 320px) and (max-width: 500px){
 	#land{
+		background-position: 50% 50%;
 		.vcenter{
 			.main-search{
 				width: auto;
@@ -691,6 +717,17 @@ footer{
 			}
 		}
 	}
+	#featuredin{
+		.fa-3x{
+			font-size: 1.5em;
+		}
+	}
+}
+
+
+@media (min-width: 501px) and (max-width: 767px){
+
+
 }
 
 

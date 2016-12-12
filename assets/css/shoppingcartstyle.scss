@@ -1,0 +1,90 @@
+body{
+	    padding-top: 70px;
+}
+
+
+#shoppingcart{
+
+	.panel-info{
+		.panel-heading{
+			background-color: #5f5f5f;
+			h5{
+				color: #ffffff;
+			}
+			.btn-link{
+				border: 1px solid #ffe100;
+			    text-align: center;
+			    background-color: #ffe100;
+			    color: #ffffff;
+				text-transform: uppercase;
+				text-decoration: none;
+				float: right;
+				margin-left: 10px;
+			}
+		}
+
+	}
+
+	.floatingclassright{
+		float: left;
+	}
+
+	.floatingclass{
+		float: left;
+		margin-right: 20px;
+	}
+
+	.btn-link{
+		border: 1px solid #ffe100;
+	    text-align: center;
+	    background-color: #ffe100;
+	    color: #ffffff;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+
+	#placeorder{
+			    padding: 10px 25px 10px 25px;
+		}
+}
+
+
+#contactus{
+	margin-top: 20px;
+    border-top: 1px solid #5f5f5f;
+	font-size: 1.2em;
+	text-align: center;
+	width: 100%;
+	//height: 125px;
+	.contact{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		//width: 100%;
+		//height: 125px;
+		//background-color: red;
+		.borderright{
+			border-right: 1px solid #5f5f5f;
+			padding: 20px 20px 20px 20px;
+		} 
+		.myicon{
+			display: inline;
+			margin-right: 10px;
+		}
+		.withoutborder{
+			padding: 20px 20px 20px 20px;
+		}
+		p{
+			display: inline;
+			//padding: 20px 20px 20px 20px;
+		}
+	}
+}
+
+footer{
+	background-color: #5f5f5f;
+	color: #ffffff;
+	.borderless{
+		background-color: #5f5f5f;
+		border: 0 none;
+	}
+}
